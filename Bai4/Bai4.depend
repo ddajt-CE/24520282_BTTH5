@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1747107401 source:d:\24520282_btth5\bai4\main.cpp
+	"cDate.h"
+
+1747106663 d:\24520282_btth5\bai4\cdate.h
+	<bits/stdc++.h>
+

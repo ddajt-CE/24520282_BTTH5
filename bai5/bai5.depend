@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1747109153 source:d:\24520282_btth5\bai5\main.cpp
+	"Dathuc.h"
+
+1747108243 d:\24520282_btth5\bai5\dathuc.h
+	<bits/stdc++.h>
+
+1747109720 source:d:\24520282_btth5\bai5\dathuc.cpp
+	"Dathuc.h"
+

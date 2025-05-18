@@ -8,6 +8,10 @@
     }
      istream& operator >> (istream& in, CTime &x){
         in >> x.Gio >> x.Phut >> x.Giay;
+                if(in.fail() || x.Gio > 24 || x.Gio < 0 || x.Phut < 0 || x.Phut > 60 || x.Giay < 0 || x.Giay > 60){
+            cout << "Khong hop le \n";
+            exit(0);
+        }
         return in;
     };
       ostream& operator << (ostream& out,CTime x){

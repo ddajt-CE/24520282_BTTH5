@@ -7,7 +7,7 @@ int main()
 {
     SoPhuc a;
     SoPhuc b;
-    SoPhuc c;
+    cout << "Nhap so phuc a va b:\n";
     cin >> a >> b ;
 
     cout << "a + b = " << a+b;
